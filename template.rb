@@ -1,4 +1,5 @@
 gem 'interactor'
+gem 'interactor-rails'
 
 gem 'typhoeus' if yes?('Add typhoeus?')
 
@@ -12,7 +13,7 @@ end
 gem_group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
-  gem 'factory_bot'# 🤦‍♀️
+  gem 'factory_bot' #🤦‍♀️
   gem 'factory_bot_rails'
 end
 
