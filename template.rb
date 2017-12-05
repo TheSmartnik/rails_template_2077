@@ -1,4 +1,5 @@
 gem 'interactor'
+gem 'interactor-rails'
 
 add_vcr if yes?('Add VCR?')
 
